@@ -1,0 +1,14 @@
+body{
+    background-color: whitesmoke;
+}
+.line{
+    color: #b4b4b4;
+    border-width: 3px;
+}
+.btn
+{
+    margin-top: 15px;
+}
+#textarea{
+    border:2px dashed;
+}
