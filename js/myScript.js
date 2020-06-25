@@ -25,38 +25,33 @@ function generatePassword()
             alert("Must select atleast one character type.");     
         }
         else{
-
             // If atleast one character type is selected, else will execute
-            var lowerCase = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
-            var upperCase = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
-            var numbers = ["0","1","2","3","4","5","6","7","8","9"];
-            var specialChar = ["!","#","$","%","&","'","(",")","*","+",",","-",".","/",":",";","<","=",">","?","@","[","]","^","_","`","{","|","}","~"];
-
-            var set = [];  //empty array
+            
+            var set = "";  //empty string
             
             if(lower) // If lower is true it will execute
             {
-                set = set.concat(lowerCase);
+                set = set.concat("abcdefghijklmnopqrstuvwxyz");
             }
             if(upper) //If upper is true, it will execute
             {
-                set = set.concat(upperCase);
+                set = set.concat("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
             }
             if(numeric) // If numeric is true, it will execute
             {
-                set = set.concat(numbers);
+                set = set.concat("0123456789");
             }
             if(special) //If special is true, it will execute
             {
-                set = set.concat(specialChar);
+                set = set.concat("!#$%&'()*+,-./:;<=>?@[]^_`{|}~]");
             }
            
             result = ""; //empty string
 
             //loop till length number
-            for (var i = 0 ,n = set.length; i < length; ++i){
+            for (var i = 0 ,n = set.length; i < length; i++){
                 //calculate Math.floor(Math.random() * n) and give it as index to set, so it will return value at that index in set.
-                result += set[Math.floor(Math.random() * n)]; 
+                result += set.charAt(Math.floor(Math.random() * n)); 
             }
 
             //document.getElementById("textarea") : select element having id 'textarea'
