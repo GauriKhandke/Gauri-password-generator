@@ -28,55 +28,95 @@
     
     <!--End of Head-->
     </head> 
+
+    <!-- Begin body -->
     <body>
+        
+        <!-- Begin main -->
         <main>
+            
             <br>
-            <div class="container">
+            <!-- Begin Section -->
+            
+            <section>
+              
+              <!-- Begin container -->
+              <div class="container">
+                
+                <!-- row 1 -->
                 <div class="row">
+                    
+                    <!-- row 1 col 1 -->
                     <div class="col-md-1">
 
                     </div>
+
+                    <!-- row 1 col 2 -->
                     <div class="col-md-10">
+
+                        <!-- subrow 1 -->
                         <div class="row">
+
+                            <!-- subrow 1 col 1 -->
                             <div class="col-md-12">
                                 <h1 class="text-center mb-5 text-primary">Password Generator</h1>
                             </div>
+
                         </div>
+
+                        <!-- subrow 2 -->
                         <div class="row">
+
+                            <!-- subrow 2 col 1 -->
                             <div class="col-md-12">
-                                <div class="card shadow rounded"> 
+
+                                <!-- Begin card -->
+                                <div class="card shadow rounded border-info"> 
+                                    
                                     <!-- Begin body -->
                                     <div class="card-body">
+                                        
+                                        <!-- card title -->
                                         <h2 class="card-title text-center mb-4 text-info">Generate a Password</h2>
                                 
                                         <hr class="line">
+                                        
                                         <!-- Begin Form -->
                                         <form>
                                             
+                                            <!-- form group row -->
                                             <div class="form-group row">
+                                                
+                                                <!-- form group col 1 -->
                                                 <div class="col-md-1">
                                                 </div>
                                                 
+                                                <!-- form group col 2 -->
                                                 <div class="col-md-10 mb-2 mt-2">
-                                                    <textarea class="form-control form-control-lg text-center" id="textarea" rows="4" placeholder="Your Secure Password"></textarea>
+                                                    <textarea class="form-control form-control-lg text-center" id="textarea" readonly rows="4" placeholder="Your Secure Password"></textarea>
                                                 </div>
                                                 
+                                                <!-- form group col 3 -->
                                                 <div class="col-md-1">
                                                 </div>
                                             </div>
                                             
                                             <hr class="line">
                                             
+                                            <!-- form group row -->
                                             <div class="form-group row">
                                                   
+                                                    <!-- form group col 1 -->
                                                     <div class="col-sm-6 text-center ">
-                                                        <button type="submit" class="btn btn-lg bg-danger text-white rounded-pill mb-2" id="generate">Generate Password</button>
+                                                        <button type="button" onclick="generatePassword()" class="btn btn-lg bg-danger text-white rounded-pill mb-2" id="generate">Generate Password</button>
                                                     </div>
 
+                                                    <!-- form group col 2 -->
                                                     <div class="col-sm-6 text-center ">
-                                                        <button type="submit" class="btn btn-lg bg-danger text-white rounded-pill" id="copy" disabled>Copy to Clipboard</button>
+                                                        <button type="button" onclick="copyToClipboard()" class="btn btn-lg bg-danger text-white rounded-pill" id="copybutton" disabled>Copy to Clipboard</button>
                                                     </div>
                                             </div>
+                                            <!-- End Form -->
                                         </form>
 
                                     </div>
@@ -85,16 +125,22 @@
                         </div>
                         
                     </div>
+
+                    <!-- row 1 col 3 -->
                     <div class="col-md-1">
 
                     </div>
                     
                 </div>
-            </div>
+              </div>
             
+            <!-- End Section -->
+            </section>
             <br>
+        <!-- End main -->
         </main>
     
+        <!-- link to external javascript -->
         <script src="./js/myScript.js"></script>
        
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
