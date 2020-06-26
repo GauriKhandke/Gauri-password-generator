@@ -7,11 +7,11 @@ function generatePassword()
     //Check for password length : if length is less than 8 or greater than 128, alert will pop up. 
     if(length < 8 || length > 128)
     {
-        alert("Password length must be between 8 to 128");
+        alert("Password length must be between 8 to 128.");
     }
     else{
 
-        //If length is between 8-128 else will execute
+        //If length is between 8-128, else will execute
 
         //take input from user for include lower, upper case letters, numbers and special characters 
         var lower = confirm("Click OK to include lowercase letters.");
