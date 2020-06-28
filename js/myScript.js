@@ -46,7 +46,7 @@ function generatePassword()
                 set = set.concat("!#$%&'()*+,-./:;<=>?@[]^_`{|}~]");
             }
            
-            result = ""; //empty string
+             var result = ""; //empty string
 
             //loop till length number
             for (var i = 0 ,n = set.length; i < length; i++){
