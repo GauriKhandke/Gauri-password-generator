@@ -1,9 +1,22 @@
-# Gauri-password-generator
-UW Coding Bootcamp HW-03 JavaScript: Password Generator
+# Password Generator
+![MIT License](https://img.shields.io/badge/license-MIT-green)
 
-## Goal :
+# Description :
 
-Create an application that generates a random password based on user-selected criteria.
+This is a password generator application that generates a random password based on user-selected criteria.
+
+## Deployed Website :
+
+[Password Generator](https://gaurikhandke.github.io/Gauri-password-generator/)
+
+# Table of Contents
+* [Screenshots](#screenshots)
+* [Technology](#technology)
+* [Usage](#usage)
+* [Features](#features)
+* [License](#license)
+* [Contribution](#contribution)
+* [Questions](#questions)
 
 ## Motivation :
 
@@ -11,13 +24,13 @@ Create an application that generates a random password based on user-selected cr
 
 * AS an employee with access to sensitive data, strong password that meets certain criteria provides greater security.
 
-## Screenshots :
+# Screenshots :
 
 |Medium Devices/ Laptop|Small Devices/ Tablet|Extra Small Devices/Phone
 |--|--|--
 |![Laptop](images/laptop.png)|![Tablet](images/tablet.png)|![Phone](images/phone.png) 
 
-## Tech/Frameworks Used :
+# Technology :
 
 #### Javascript : 
 * JavaScript is a cross-platform, object-oriented scripting language used to make webpages interactive.
@@ -27,7 +40,7 @@ Create an application that generates a random password based on user-selected cr
 
 * Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
 
-## Usage : 
+# Usage : 
 
 1. When User clicks 'Generate Password' button, user is asked to provide password length between 8 to 128.
 
@@ -37,8 +50,7 @@ Create an application that generates a random password based on user-selected cr
 
 4. User have option to copy genrated password by using 'Copy To Clipboard' button.
 
-
-## Features :
+# Features :
 
 1. Responsive Web Design : Application provides Responsive web design so that it adapts to multiple screen sizes. Bootstrap is used to provide responsive functionality. 
 
@@ -50,6 +62,13 @@ Create an application that generates a random password based on user-selected cr
 
 5. User have option to copy generated password by using 'Copy To Clipboard' button.
 
-## Deployed Website :
+# License
 
-https://gaurikhandke.github.io/Gauri-password-generator/
+This project is licensed under MIT License.
+
+# Contribution
+
+Please let me know how I can improve this project. Issues and pull requests are always welcome.
+
+# Questions :
+* If you have any questions about the repo, please submit issue [here](https://github.com/GauriKhandke/Gauri-password-generator/issues/new) or [email](mailto:khandkegauri@gmail.com) me.
